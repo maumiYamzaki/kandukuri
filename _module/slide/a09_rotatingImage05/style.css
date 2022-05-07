@@ -1,0 +1,18 @@
+.box_rotatingImage.a09_rotatingImage05{
+	background-color: #fbb446;
+}
+
+.box_rotatingImage.a09_rotatingImage05 > .rm_container  ul li{
+	border: 30px solid #fbb446;
+	background-color: #fbb446;
+}
+
+.box_rotatingImage.a09_rotatingImage05 > .rm_container > .rm_mask_right,
+.box_rotatingImage.a09_rotatingImage05 > .rm_container > .rm_mask_left {
+	background: #fbb446;
+}
+
+.box_rotatingImage.a09_rotatingImage05 > .rm_container > .rm_corner_right,
+.box_rotatingImage.a09_rotatingImage05 > .rm_container > .rm_corner_left {
+	background: #fbb446;
+}

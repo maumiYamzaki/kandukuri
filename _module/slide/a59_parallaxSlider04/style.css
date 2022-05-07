@@ -1,0 +1,14 @@
+.a59_parallaxSlider04 .pxs_bg .pxs_bg1{
+	background-image:url(../a09_parallaxSlider04/bg1.png);
+}
+.a59_parallaxSlider04 .pxs_bg .pxs_bg2{
+	background-image:url(../a09_parallaxSlider04/bg2.png);
+}
+.a59_parallaxSlider04 .pxs_bg .pxs_bg3{
+	background-image:url(../a09_parallaxSlider04/bg3.png);
+}
+.a59_parallaxSlider04 ul.pxs_slider li img{
+	-moz-box-shadow:0px 0px 7px #aaa;
+	-webkit-box-shadow:0px 0px 7px #aaa;
+	box-shadow:0px 0px 7px #aaa;
+}

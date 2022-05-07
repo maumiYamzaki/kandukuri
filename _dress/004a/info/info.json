@@ -1,0 +1,11 @@
+{
+	"name": "MINSYUKU<div class=\"cs-subtitle\">Beige</div>"
+	, "category": "Template"
+	, "description": "オフホワイトの背景に、ベージュとネイビーを配色したDressです。"
+	, "colorwheel": {
+		"rule"		: "custom"
+		, "base"	: "#f9faf2"
+		, "sub"		: "#cf9a97"
+		, "accent"	: "#f6ebea"
+	}
+}

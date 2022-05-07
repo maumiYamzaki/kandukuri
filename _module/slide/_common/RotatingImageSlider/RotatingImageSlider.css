@@ -1,0 +1,181 @@
+.box_rotatingImage{
+	background-color: #f0f0f0;
+}
+
+.box_rotatingImage > .rm_container{
+	overflow: hidden;
+	position: relative;
+	margin: 0 53px;
+}
+
+.box_rotatingImage > .rm_container > ul{
+	list-style: none;
+	width: 2000px;
+	padding-top: 20px;
+}
+
+.box_rotatingImage > .rm_container  ul li{
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border: 30px solid #f0f0f0;
+	background-color: #f0f0f0;
+}
+
+.box_rotatingImage > .rm_container ul li img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.box_rotatingImage > .rm_nav a {
+	position: absolute;
+	width: 38px;
+	height: 87px;
+	cursor: pointer;
+	opacity: 0.7;
+	border: none;
+}
+
+.box_rotatingImage > .rm_nav a:hover {
+	opacity: 1.0;
+}
+
+.box_rotatingImage > .rm_nav a.rm_next {
+	background: transparent url(next.png) no-repeat top left;
+	right: 0px;
+}
+
+.box_rotatingImage > .rm_nav a.rm_prev {
+	background: transparent url(prev.png) no-repeat top left;
+	left: 0px;
+}
+
+.box_rotatingImage > .rm_container > .rm_mask_right, .box_rotatingImage > .rm_container > .rm_mask_left {
+	position: absolute;
+	height: 110px;
+	background: #f0f0f0;
+	width: 550px;
+	bottom: -60px;
+	left: 0px;
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+}
+
+.box_rotatingImage > .rm_container > .rm_mask_right {
+	left: auto;
+	right: 0px;
+	bottom: -60px;
+	-moz-transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+.box_rotatingImage > .rm_container > .rm_corner_right, .box_rotatingImage > .rm_container > .rm_corner_left {
+	background: #f0f0f0;
+	position: absolute;
+	width: 230px;
+	height: 100px;
+	bottom: -20px;
+	left: -120px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.box_rotatingImage > .rm_container > .rm_corner_right {
+	left: auto;
+	right: -95px;
+	bottom: -10px;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.box_rotatingImage > .rm_controls {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 20px;
+}
+
+.box_rotatingImage > .rm_controls  a{
+	color: #555;
+	background: none;
+	text-decoration: none;
+	border: none;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	margin: 5px 10px;
+	padding-left: 24px;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+
+.box_rotatingImage > .rm_controls  a:focus, .box_rotatingImage > .rm_controls  a:hover, .box_rotatingImage > .rm_controls  a:active, .box_rotatingImage > .rm_controls  a:visited {
+	color: #555;
+	background: none;
+	text-decoration: none;
+	border: none;
+}
+
+.box_rotatingImage > .rm_controls  a:hover {
+	opacity: 1.0
+}
+
+.box_rotatingImage > .rm_controls a.rm_play {
+	background: url(play.png) no-repeat;
+}
+
+.box_rotatingImage > .rm_controls a.rm_pause {
+	background: url(pause.png) no-repeat;
+	display: none;
+}
+
+
+/**
+ * for SmartPhone
+ **/
+.sp.box_rotatingImage > .rm_container > ul{
+	padding-top: 30px;
+}
+
+.sp.box_rotatingImage > .rm_container{
+	margin: 0 30px;
+}
+
+.sp.box_rotatingImage > .rm_container > .rm_mask_right, .sp.box_rotatingImage > .rm_container > .rm_mask_left {
+	bottom: -90px;
+}
+
+.sp.box_rotatingImage > .rm_container > .rm_corner_right, .sp.box_rotatingImage > .rm_container > .rm_corner_left {
+	left: -160px;
+}
+
+.sp.box_rotatingImage > .rm_container > .rm_corner_right {
+	left: auto;
+	right: -150px;
+	bottom: -40px;
+}
+
+.sp.box_rotatingImage > .rm_controls  a{
+	font-size: 12px;
+}
+
+.sp.box_rotatingImage > .rm_nav a {
+	width: 26px;
+	height: 58px;
+}
+
+.sp.box_rotatingImage > .rm_nav a.rm_next {
+	background-size: cover;
+}
+
+.sp.box_rotatingImage > .rm_nav a.rm_prev {
+	background-size: cover;
+}

@@ -1,0 +1,18 @@
+.box_rotatingImage.a59_rotatingImage07{
+	background-color: #5ebcd7;
+}
+
+.box_rotatingImage.a59_rotatingImage07 > .rm_container  ul li{
+	border: 30px solid #5ebcd7;
+	background-color: #5ebcd7;
+}
+
+.box_rotatingImage.a59_rotatingImage07 > .rm_container > .rm_mask_right,
+.box_rotatingImage.a59_rotatingImage07 > .rm_container > .rm_mask_left {
+	background: #5ebcd7;
+}
+
+.box_rotatingImage.a59_rotatingImage07 > .rm_container > .rm_corner_right,
+.box_rotatingImage.a59_rotatingImage07 > .rm_container > .rm_corner_left {
+	background: #5ebcd7;
+}

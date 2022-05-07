@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <id>004a</id>
+  <title>MINSYUKU / XL [Beige]</title>
+  <desc>ベージュを基調としたMINSYUKUスタイルのテンプレートです。</desc>
+  <pagelist>
+  	<page><title>=トップ=</title><desc>ページの顔となる表紙のページです。</desc></page>
+  	<page><title>ごあいさつ</title><desc></desc></page>
+  	<page><title>空間一覧</title><desc></desc></page>
+  	<page><title>空間詳細</title><desc></desc></page>
+  	<page><title>こだわりの料理</title><desc></desc></page>
+  	<page><title>観光案内</title><desc></desc></page>
+  	<page><title>アクセス</title><desc></desc></page>
+	 <page><title>temp</title><desc>オリジナルのページを追加する際に便利な「ひな形」ページです。</desc></page>
+  </pagelist>
+<preview>
+  <url>http://www.digitalstage.jp/go/bind7/templates/preset_prev/004.html</url>
+</preview>
+<smartblock>true</smartblock>
+</info>

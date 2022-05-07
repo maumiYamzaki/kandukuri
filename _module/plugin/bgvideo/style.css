@@ -1,0 +1,44 @@
+.md_plg-bgvideo-sound-btn1{
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+	display: inline-block;
+}
+.md_plg-bgvideo-sound-btn1.speak{ background:url(sound01.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn1.mute{ background:url(sound01.png) 50% 30px; }
+.md_plg-bgvideo-sound-btn1.black.speak{ background:url(sound05.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn1.black.mute{ background:url(sound05.png) 50% 30px; }
+
+.md_plg-bgvideo-sound-btn2{
+	width: 60px;
+	height: 23px;
+	cursor: pointer;
+	display: inline-block;
+}
+.md_plg-bgvideo-sound-btn2.speak{ background:url(sound02.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn2.mute{ background:url(sound02.png) 50% 23px; }
+.md_plg-bgvideo-sound-btn2.black.speak{ background:url(sound06.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn2.black.mute{ background:url(sound06.png) 50% 23px; }
+
+.md_plg-bgvideo-sound-btn3{
+	width: 100px;
+	height: 29px;
+	cursor: pointer;
+	display: inline-block;
+}
+.md_plg-bgvideo-sound-btn3.speak{ background:url(sound03.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn3.mute{ background:url(sound03.png) 50% 29px; }
+.md_plg-bgvideo-sound-btn3.black.speak{ background:url(sound07.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn3.black.mute{ background:url(sound07.png) 50% 29px; }
+
+.md_plg-bgvideo-sound-btn4{
+	width: 102px;
+	height: 11px;
+	cursor: pointer;
+	display: inline-block;
+}
+.md_plg-bgvideo-sound-btn4.speak{ background:url(sound04.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn4.mute{ background:url(sound04.png) 50% 11px; }
+.md_plg-bgvideo-sound-btn4.black.speak{ background:url(sound08.png) 50% 0px; }
+.md_plg-bgvideo-sound-btn4.black.mute{ background:url(sound08.png) 50% 11px; }
+
